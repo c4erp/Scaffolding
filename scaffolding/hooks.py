@@ -708,10 +708,10 @@ scheduler_events = {
 }
 
 
-app_include_css = "/assets/scaffolding/css/ecs.css"
-app_include_js = "/assets/scaffolding/js/ecs.js"
-web_include_js = "/assets/js/web_ecs.min.js"
-web_include_css = "/assets/js/web_ecs.min.css"
+app_include_css = "/assets/scaffolding/css/connect4.css"
+app_include_js = "/assets/scaffolding/js/connect4.js"
+web_include_js = "/assets/js/web_connect4.min.js"
+web_include_css = "/assets/js/web_connect4.min.css"
 
 
 # Includes in <head>
