@@ -2,7 +2,7 @@
 Configuration for docs
 """
 
-# source_link = "https://github.com/erpegypt/scaffolding"
+# source_link = "https://github.com/c4erp/scaffolding"
 # headline = "App for scaffolding and equipment rent operation managment"
 # sub_heading = "rent and sales return and invoice "
 

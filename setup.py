@@ -10,7 +10,7 @@ setup(
 	name="scaffolding",
 	version=version,
 	description="scaffolding Rent and Sales Operation",
-	author="Connect4systems",
+	author="Connect4",
 	author_email="info@connect4systems.com",
 	packages=find_packages(),
 	zip_safe=False,
