@@ -18,7 +18,7 @@ frappe.ui.form.on("Rent", {
 					"cost_center": frm.doc.cost_center,
 					"from_warehouse": frm.doc.target_warehouse,
 					"to_warehouse": frm.doc.source_warehouse,
-					"selling_price_list": "Daily"
+					"selling_price_list": "Monthly"
 				};
 				frappe.new_doc("Sales Invoice");
 			}, __("Create"));
@@ -33,8 +33,9 @@ frappe.ui.form.on("Rent", {
 				var child = locals[cdt][cdn];
 				frappe.route_options = {
 					"payment_type": "Receive",
-					"party_type": "Customer",
-					"party": frm.doc.customer,
+					"customer": frm.doc.customer,
+					"cost_center": frm.doc.cost_center
+					
 				};
 				frappe.new_doc("Payment Entry");
 			}, __("Create"));
