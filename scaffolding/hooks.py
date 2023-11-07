@@ -678,7 +678,7 @@ doctype_js = {
 }
 
 
-
+frappe.scaffolding.doctype'
 
 
 
