@@ -1,10 +1,10 @@
 from . import __version__ as app_version
 
 app_name = "scaffolding"
-app_title = "Ecs Rent"
-app_publisher = "ECS"
+app_title = "Scaffolding"
+app_publisher = "Connect4"
 app_description = "Customization"
-app_email = "info@erpcloud.systems"
+app_email = "info@connect4systems.com"
 app_license = "MIT"
 
 # Includes in <head>

@@ -1,4 +1,4 @@
-// Copyright (c) 2023, ECS and contributors
+// Copyright (c) 2023, Connect4 and contributors
 // For license information, please see license.txt
 
 frappe.ui.form.on('Rent', {
